@@ -1,0 +1,25 @@
+<?php
+/**
+ * @file
+ * Interface module for adding history back button.
+ */
+
+/**
+ * This hook is run at the beginning of the page request
+ */
+function ding_history_back_init(&$variables) {
+  // Array of ding entity paths
+  $paths = array(
+    'ting/object',
+  );
+
+  $path = current_path();
+  $module_path = drupal_get_path('module', 'ding_history_back');
+
+  foreach ($paths as $value) {
+    if (strpos($path, $value) === 0) {
+      drupal_add_js($module_path . '/js/ding_history_back.js', 'file');
+      break;
+    }
+  }
+}
