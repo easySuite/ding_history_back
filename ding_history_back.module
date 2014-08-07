@@ -11,6 +11,7 @@ function ding_history_back_init() {
   // Array of ding entity paths
   $paths = array(
     'ting/object',
+    'ting/collection',
   );
 
   $path = current_path();
