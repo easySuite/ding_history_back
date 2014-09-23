@@ -5,12 +5,13 @@
  */
 
 /**
- * This hook is run at the beginning of the page request
+ * Implements hook_init().
  */
-function ding_history_back_init(&$variables) {
+function ding_history_back_init() {
   // Array of ding entity paths
   $paths = array(
     'ting/object',
+    'ting/collection',
   );
 
   $path = current_path();
