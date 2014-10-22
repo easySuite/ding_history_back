@@ -21,7 +21,7 @@
 
           // Attach item id to history url.
           // This will be used for scroll to item effect.
-          var id = decodeURIComponent(window.location.href).match(/\d+-\w+:\d+/)[0];
+          var id = decodeURIComponent(window.location.href).match(/\d+$/)[0];
           window.location = document.referrer + '#' + id;
         });
       });
