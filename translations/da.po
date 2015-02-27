@@ -1,0 +1,37 @@
+# $Id$
+#
+# LANGUAGE translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  ding_history_back.info: n/a
+#  js/ding_history_back.js: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2015-02-19 16:14+0100\n"
+"PO-Revision-Date: 2015-02-20 15:55+0100\n"
+"Last-Translator: Martin Cording <mc@inlead.dk>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Language: da\n"
+"X-Generator: Poedit 1.7.4\n"
+
+#: ding_history_back.info:0
+msgid "Ding History Back"
+msgstr "Tilbage-knap"
+
+#: ding_history_back.info:0
+msgid "Adds history back button on listed pages."
+msgstr "Tilføjer en Tilbage-knap på TING sider."
+
+#: ding_history_back.info:0
+msgid "easyDDB"
+msgstr ""
+
+#: js/ding_history_back.js:0
+msgid "Back"
+msgstr "Tilbage"
