@@ -1,6 +1,6 @@
 name = Ding History Back
 description = Adds history back button on listed pages.
 package = easyDDB
-version = "7.x-2.0.0"
+version = 7.x-2.0.0+easy
 core = 7.x
 
