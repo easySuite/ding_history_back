@@ -3,14 +3,14 @@
 # LANGUAGE translation of Drupal (general)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  ding_history_back.info: n/a
-#  js/ding_history_back.js: n/a
+#  profiles/ding2/modules/ding_history_back/ding_history_back.info: n/a
+#  profiles/ding2/modules/ding_history_back/js/ding_history_back.js: n/a
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2015-02-19 16:14+0100\n"
+"POT-Creation-Date: 2015-07-28 11:31+0300\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -19,19 +19,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: ding_history_back.info:0
+#: profiles/ding2/modules/ding_history_back/ding_history_back.info:0
 msgid "Ding History Back"
 msgstr ""
 
-#: ding_history_back.info:0
+#: profiles/ding2/modules/ding_history_back/ding_history_back.info:0
 msgid "Adds history back button on listed pages."
 msgstr ""
 
-#: ding_history_back.info:0
+#: profiles/ding2/modules/ding_history_back/ding_history_back.info:0
 msgid "easyDDB"
 msgstr ""
 
-#: js/ding_history_back.js:0
+#: profiles/ding2/modules/ding_history_back/js/ding_history_back.js:0
 msgid "Back"
 msgstr ""
 
