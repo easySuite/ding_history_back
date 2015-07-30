@@ -8,6 +8,7 @@
  * Implements hook_init().
  */
 function ding_history_back_init() {
+  drupal_add_css(drupal_get_path('module', 'ding_history_back') . '/css/ding_history_back.css', array('type' => 'file'));
   // Array of ding entity paths
   $paths = array(
     'ting/object',
