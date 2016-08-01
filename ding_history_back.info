@@ -3,4 +3,4 @@ description = Adds history back button on listed pages.
 package = easyDDB
 version = 7.x-2.2.0+easy
 core = 7.x
-
+stylesheets[all][] = css/ding_history_back.css
