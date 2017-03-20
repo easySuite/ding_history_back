@@ -2,4 +2,10 @@
   display: block;
   clear: both;
   margin: 10px 0;
+  color: #00b7e7;
+  cursor: pointer;
+}
+.step-back:hover {
+  text-decoration: underline;
+  color: #00799b;
 }
