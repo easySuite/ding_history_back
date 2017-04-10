@@ -7,19 +7,14 @@
   Drupal.behaviors.historyBack = {
     attach: function (context) {
       $(function () {
-        var link = $('<a>', {
+        var link = $('<span>', {
           'class': 'step-back',
           'text': Drupal.t('Back'),
-          'href': '#'
+          'onclick': "history.go(-1);"
         });
 
         link.clone().prependTo($('.primary-content', context));
         link.clone().appendTo($('.primary-content', context));
-
-        $('.step-back').click(function (e) {
-          e.preventDefault();
-          window.history.back();
-        });
       });
     }
   };
