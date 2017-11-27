@@ -28,7 +28,7 @@ msgid "Adds history back button on listed pages."
 msgstr ""
 
 #: profiles/ding2/modules/ding_history_back/ding_history_back.info:0
-msgid "easyDDB"
+msgid "easyOPAC"
 msgstr ""
 
 #: profiles/ding2/modules/ding_history_back/js/ding_history_back.js:0
