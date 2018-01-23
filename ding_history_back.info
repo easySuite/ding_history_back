@@ -1,6 +1,6 @@
 name = Ding History Back
 description = Adds history back button on listed pages.
 package = easyOPAC
-version = 7.x-3.0.2
+version = 7.x-4.0.2
 core = 7.x
 stylesheets[all][] = css/ding_history_back.css
