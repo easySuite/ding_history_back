@@ -1,12 +1,14 @@
+@import "../../../themes/ddbasic/sass/_base.scss";
+
 .step-back {
   display: block;
   clear: both;
   margin: 10px 0;
-  color: #00b7e7;
+  color: $color-primary;
   cursor: pointer;
 
   &:hover {
     text-decoration: underline;
-    color: #00799b;
+    color: $color-text-link;
   }
 }

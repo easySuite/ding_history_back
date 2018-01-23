@@ -13,8 +13,8 @@
           'onclick': "history.go(-1);"
         });
 
-        link.clone().prependTo($('.primary-content', context));
-        link.clone().appendTo($('.primary-content', context));
+        link.clone().prependTo($('.view-mode-full', context));
+        link.clone().appendTo($('.view-mode-full', context));
       });
     }
   };
