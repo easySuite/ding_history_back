@@ -7,7 +7,8 @@
   Drupal.behaviors.historyBack = {
     attach: function (context) {
       $(function () {
-        var link = $('<span>', {
+        var link = $('<a>', {
+          'href': '#',
           'class': 'ding-history-back',
           'text': Drupal.t('Back'),
           'onclick': "history.go(-1);"
