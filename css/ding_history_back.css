@@ -2,10 +2,8 @@
   display: block;
   clear: both;
   margin: 10px 0;
-  color: #4d898f;
   cursor: pointer;
 }
 .ding-history-back:hover {
   text-decoration: underline;
-  color: #4d898d;
 }
